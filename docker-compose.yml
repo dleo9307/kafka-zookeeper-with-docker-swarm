@@ -10,7 +10,7 @@ services:
       - app
     
   kafka:
-    image: hyun_kafka:2.13
+    image: dleo9307/kafka:2.13
     ports:
       - 9092:9092
     volumes:
