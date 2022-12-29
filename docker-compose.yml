@@ -14,7 +14,6 @@ services:
     ports:
       - 9092:9092
     volumes:
-      #- /Users/daehyunlee/hyun/project/app/study/kafka/config:/kafka/config
       - ./config:/kafka/config
     command: kafka/bin/kafka-server-start.sh kafka/config/server.properties
     networks:
